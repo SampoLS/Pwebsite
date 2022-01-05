@@ -1,0 +1,25 @@
+.signup-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-page form {
+  width: 50%;
+}
+.signup-page .close-btn {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  cursor: pointer;
+}
+.signup-page label {
+  color: white;
+}
